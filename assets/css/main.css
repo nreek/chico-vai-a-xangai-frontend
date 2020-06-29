@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+
+.grad-left-premiacoes { background-image: linear-gradient(to right, #23B466, #03AA97); }
+.grad-right-premiacoes { background-image: linear-gradient(to left, #23B466, #03AA97); }
+.grad-radial-premiacoes { background-image: linear-gradient(to left, #23B466, #03AA97); }
+
+.grad-left-mundo { background-image: linear-gradient(to right, #08435F, #5D90A7); }
+.grad-right-mundo { background-image: linear-gradient(to left, #5D90A7, #08435F); }
+.grad-radial-mundo { background-image: linear-gradient(to left, #23B466, #03AA97); }
+
+.grad-left-historia { background-image: linear-gradient(to right, #23B466, #03AA97); }
+.grad-right-historia { background-image: linear-gradient(to left, #23B466, #03AA97); }
+.grad-radial-historia { background-image: linear-gradient(to left, #23B466, #03AA97); }
+
+.grad-left-primary { background-image: linear-gradient(to right, #23B466, #5D90A7); }
+.grad-right-primary { background-image: linear-gradient(to left, #5D90A7, #03AA97); }
+.grad-radial-primary { background-image: linear-gradient(to right, #1F2D5A, #465383, #1F2D5A);  }
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
