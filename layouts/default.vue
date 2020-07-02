@@ -1,16 +1,16 @@
 <template>
     <div>
-        <Header></Header>
+        <CHeader></CHeader>
         <Nuxt />
     </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Header from '~/components/Header.vue'
+import CHeader from '~/components/CHeader.vue'
 
 export default Vue.extend({
-    components :  { Header }
+    components :  { CHeader }
 })
 </script>
 

@@ -55,12 +55,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/proxy'
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    extend(config) {
+      config.resolve.alias['vue'] = 'vue/dist/vue.common'
+    }
   },
   babel: {
     presets({ isServer }) {
@@ -71,4 +75,21 @@ export default {
       ]
     }
   },
+  proxy: {
+    '/api': {
+        target: 'https://smartportal-staging.smartfit.com.br/wp-content/data/',
+        ws: false,
+        pathRewrite: {
+            '^/api': '/'
+        }
+    },
+    '/rest': {
+        target: 'https://smartportal-staging.smartfit.com.br/index.php/wp-json/smart/v1/',
+        ws: false,
+        pathRewrite: {
+            '^/api': '/',
+            '^/rest': '/',
+        }
+    },
+  }
 }

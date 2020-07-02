@@ -1,4 +1,4 @@
-# chico-vai-a-xangai-frontend
+# Chicó vai a Xangai - Front-end
 
 ## Build Setup
 
@@ -18,3 +18,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# To do:
+Convert store from js to typescript
