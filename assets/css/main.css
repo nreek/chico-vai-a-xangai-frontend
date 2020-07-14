@@ -24,3 +24,5 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+#__nuxt { font-family: 'Montserrat'; }
